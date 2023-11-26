@@ -11,6 +11,7 @@ function app(){
   const CompletedIcon = document.querySelector("#completed-icon");
   const loadingSpinnerIcon = document.querySelector("#loading-spinner-icon");
 const  chechkBoxBtnStatus = document.querySelector("#shopping-item-check-box-status");
+const profileBtnDc = document.querySelector('#profileBtnDc')
   const HIDDEN_CLASS = "hidden";
   const  MARKED_AS_DONE_CLASS = 'checkbox-done';
 
@@ -85,6 +86,13 @@ setTimeout(()  =>{
 
   })
 
+
+  profileBtnDc.addEventListener('click', () =>{ 
+    dropdownProfile.style.display == "none"
+    ? (dropdownProfile.style.display = "block")
+    : (dropdownProfile.style.display = "none")
+    console.log("Hello world")
+  });
 
 }
 
