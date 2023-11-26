@@ -505,6 +505,10 @@ font-family: Inter;
     position: fixed;
     z-index: 2;
   }
+  main{
+    position: relative;
+    top: 50px;
+  }
   .mobile-logo{
   display: block;
 }
